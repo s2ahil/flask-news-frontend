@@ -13,7 +13,7 @@ function App() {
     try {
       setIsLoading(true); // Set loading to true
 
-      const response = await axios.post("http://localhost:3000/api/predict", {
+      const response = await axios.post("https://flask-news-backend.onrender.com/api/predict", {
         news_text: newsText,
       });
 

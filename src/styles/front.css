@@ -1,0 +1,29 @@
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+  }
+  body{
+    background-color: #010102;
+    color:aliceblue;
+    font-family: 'Roboto', sans-serif;
+  }
+
+.cardBody{
+   
+    display: flex; 
+    flex-direction: column;
+    padding:50px;
+}
+
+.formContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Add the desired space between the TextField and Button */
+  }
+.resultContainer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
